@@ -42,3 +42,55 @@ info: ::1 - - [04/Jul/2022:17:11:54 +0000] "GET /api/v1/books/getAll HTTP/1.1" 4
 
 info: ::1 - - [04/Jul/2022:17:19:06 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [05/Jul/2022:08:00:54 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:03:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 118 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:19:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 210 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:26:38 +0000] "GET /api/v1/notes/getbyId/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:27:14 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:39:23 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:39:39 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:48:19 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:48:44 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:49:05 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:50:39 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 88 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:52:25 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:53:33 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 200 1283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:08:56:34 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:06:28 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:07:43 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 200 1283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:21:25 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:21:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:22:08 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:24:10 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:25:23 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:27:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:09:30:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 274 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:25:52 +0000] "POST /api/v1/users/login HTTP/1.1" 200 274 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:26:12 +0000] "POST /api/v1/books/getbyId/6215178d05253301a4fda5c4 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:15:26:22 +0000] "GET /api/v1/books/getbyId/6215178d05253301a4fda5c4 HTTP/1.1" 200 335 "-" "PostmanRuntime/7.29.0"
+

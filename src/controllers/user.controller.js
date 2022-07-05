@@ -17,7 +17,7 @@ export const newUser = async (req, res, next) => {
 
 export const userLogin = async (req, res, next) => {
   try {
-    const data = await UserService.userLogin(req.body.emailId, req.body.password);
+    const data = await UserService.userLogin(req.body.emailId, req.body.password, req.body.confirmPassword);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,

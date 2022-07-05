@@ -4,3 +4,250 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T0
 info: Connected to the database. {"timestamp":"2022-07-05T02:26:38.396Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T02:40:54.936Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T02:40:58.728Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T07:58:53.173Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T07:58:56.593Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:07:47.082Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:07:50.812Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:08:15.887Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:08:19.080Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:09:08.784Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:09:12.224Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:10:16.932Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:10:20.342Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:12:22.080Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:12:25.438Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:18:00.585Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:18:03.977Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:27:14.068Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:39:22.705Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:39:39.735Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:46:50.901Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:46:54.738Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:48:19.586Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-07-05T08:48:43.990Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:23:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:49:05.937Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:50:18.121Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:50:22.815Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'email')
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:24:28)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:50:38.893Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:52:20.735Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:52:24.980Z"}
+error: 
+    status - 500 
+    message - ReferenceError: user is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:24:23)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:52:25.264Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:53:23.103Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:53:26.721Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T08:56:22.457Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T08:56:25.719Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T08:56:34.017Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:06:13.961Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:06:17.486Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/books/getbyId/6214803b05253301a4fda584 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:06:28.744Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:07:28.636Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:07:32.032Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:16:32.423Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:16:35.980Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:20:09.941Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:20:13.072Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:20:55.434Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:20:58.745Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:21:33.182Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:22:08.249Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:24:10.323Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:24:56.711Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:25:00.407Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:25:23.470Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:27:22.255Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:27:28.367Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T09:27:40.592Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T09:30:19.241Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T09:30:22.579Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T14:30:55.835Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T14:30:59.352Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:24:00.773Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:24:04.081Z"}

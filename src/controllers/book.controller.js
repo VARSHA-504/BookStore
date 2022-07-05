@@ -13,3 +13,16 @@ export const getAllBooks = async (req, res, next) => {
       next(error);
     }
   };
+
+  export const getBook = async (req, res, next) => {
+    try {
+      const data = await BookService.getBook(req.params._id);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Book fetched'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };

@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import jwt from 'jsonwebtoken';
 
 export const newUser = async (body) => {
   const data = await User.create(body);
@@ -6,8 +7,14 @@ export const newUser = async (body) => {
 };
 
 export const userLogin = async (emailId, password, confirmPassword) => {
-  const data = await User.findOne({emailId: emailId}, {password: password}, {confirmpassword: confirmPassword});
-  return data;
+  const data = await User.findOne({emailId: emailId});
+  if(data == null){
+    throw new Error("User doesnt exist")
+  }
+  else{
+      let token = jwt.sign({ firstname: data.firstName, email: data.emailId, id: data._id }, process.env.SECRET_KEY);
+      return token;
+    }
 };
 
 // //get all users
