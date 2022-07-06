@@ -148,3 +148,67 @@ info: ::1 - - [05/Jul/2022:19:04:38 +0000] "POST /api/v1/cart/6215888305253301a4
 
 info: ::1 - - [05/Jul/2022:19:13:23 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 334 "-" "PostmanRuntime/7.29.0"
 
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1380:16)
+    at listenInCluster (node:net:1428:12)
+    at Server.listen (node:net:1516:7)
+    at Function.listen (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Jul 06 2022 11:45:12 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":168540},"process":{"argv":["node","C:\\Users\\91809\\Desktop\\bookstore\\src\\index.js"],"cwd":"C:\\Users\\91809\\Desktop\\bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19195029,"external":20665607,"heapTotal":83730432,"heapUsed":54912520,"rss":117694464},"pid":13644,"uid":null,"version":"v18.2.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (node:net:1380:16)\n    at listenInCluster (node:net:1428:12)\n    at Server.listen (node:net:1516:7)\n    at Function.listen (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1380,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1428,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1516,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [06/Jul/2022:06:22:32 +0000] "GET /api/v1/cart HTTP/1.1" 200 352 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:27:25 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:28:35 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1024 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:28:58 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:31:09 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1380:16)
+    at listenInCluster (node:net:1428:12)
+    at Server.listen (node:net:1516:7)
+    at Function.listen (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Wed Jul 06 2022 12:02:20 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169568},"process":{"argv":["node","C:\\Users\\91809\\Desktop\\bookstore\\src\\index.js"],"cwd":"C:\\Users\\91809\\Desktop\\bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19244398,"external":20714976,"heapTotal":82944000,"heapUsed":55443512,"rss":117436416},"pid":8060,"uid":null,"version":"v18.2.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (node:net:1380:16)\n    at listenInCluster (node:net:1428:12)\n    at Server.listen (node:net:1516:7)\n    at Function.listen (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1380,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1428,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1516,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [06/Jul/2022:06:32:56 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:34:14 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:39:27 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:40:47 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:40:51 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:42:19 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:45:35 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:50:27 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:52:07 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+

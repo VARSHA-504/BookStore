@@ -8,3 +8,31 @@ info: ::1 - - [05/Jul/2022:19:04:38 +0000] "POST /api/v1/cart/6215888305253301a4
 
 info: ::1 - - [05/Jul/2022:19:13:23 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 334 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [06/Jul/2022:06:22:32 +0000] "GET /api/v1/cart HTTP/1.1" 200 352 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:27:25 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:28:35 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1024 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:28:58 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:31:09 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:32:56 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:34:14 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:39:27 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:40:47 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:40:51 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:42:19 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:45:35 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:50:27 +0000] "GET /api/v1/cart HTTP/1.1" 400 144 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [06/Jul/2022:06:52:07 +0000] "GET /api/v1/cart HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
