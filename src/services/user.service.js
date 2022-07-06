@@ -7,12 +7,12 @@ export const newUser = async (body) => {
 };
 
 export const userLogin = async (emailId, password, confirmPassword) => {
-  const data = await User.findOne({emailId: emailId});
-  if(data == null){
+  const user = await User.findOne({emailId: emailId});
+  if(user == null){
     throw new Error("User doesnt exist")
   }
   else{
-      let token = jwt.sign({ firstname: data.firstName, email: data.emailId, id: data._id }, process.env.SECRET_KEY);
+      let token = jwt.sign({ firstname: user.firstName, email: user.emailId, id: user._id }, process.env.SECRET_KEY);
       return token;
     }
 };

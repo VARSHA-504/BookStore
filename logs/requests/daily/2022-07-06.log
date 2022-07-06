@@ -1,0 +1,10 @@
+info: ::1 - - [05/Jul/2022:18:59:57 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:02:40 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 358 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:03:47 +0000] "POST /api/v1/cart/6215178d05253301a4fda5c4 HTTP/1.1" 201 358 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:04:38 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 349 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [05/Jul/2022:19:13:23 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 334 "-" "PostmanRuntime/7.29.0"
+

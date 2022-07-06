@@ -363,3 +363,146 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T1
 info: Connected to the database. {"timestamp":"2022-07-05T14:30:59.352Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:24:00.773Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T15:24:04.081Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:32:08.066Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:32:11.620Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:36:01.548Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:36:05.059Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:48:43.696Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:48:47.234Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T15:49:37.131Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:50:14.955Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:50:18.471Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:52:53.006Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:52:56.322Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:53:55.241Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:53:58.690Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:55:16.553Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:55:19.943Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3001
+Error: listen EADDRINUSE: address already in use :::3001
+    at Server.setupListenHandle [as _listen2] (node:net:1380:16)
+    at listenInCluster (node:net:1428:12)
+    at Server.listen (node:net:1516:7)
+    at Function.listen (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Object.newLoader [as .js] (C:\Users\91809\Desktop\bookstore\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:827:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at Object.<anonymous> (C:\Users\91809\Desktop\bookstore\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Tue Jul 05 2022 21:25:26 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3001,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":116956},"process":{"argv":["node","C:\\Users\\91809\\Desktop\\bookstore\\src\\index.js"],"cwd":"C:\\Users\\91809\\Desktop\\bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19010024,"external":20480562,"heapTotal":78974976,"heapUsed":53219136,"rss":111751168},"pid":9516,"uid":null,"version":"v18.2.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3001\n    at Server.setupListenHandle [as _listen2] (node:net:1380:16)\n    at listenInCluster (node:net:1428:12)\n    at Server.listen (node:net:1516:7)\n    at Function.listen (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-07-05T15:55:26.299Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1380,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1428,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1516,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:04:53.602Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:04:57.318Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/6215178d05253301a4fda5c4 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-05T17:13:15.475Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:20:53.766Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:20:57.110Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:21:32.087Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:21:35.099Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:31:00.547Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:31:04.138Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:31:59.218Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:32:03.730Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:32:34.387Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:32:37.624Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:36:47.380Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:36:50.759Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:38:21.167Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:38:24.759Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:42:53.501Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:42:57.040Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:46:37.150Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:46:40.785Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T17:46:47.206Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:49:52.986Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:49:57.903Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:53:15.753Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:53:19.732Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T17:53:36.689Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:56:36.162Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:56:40.126Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:58:59.222Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:59:02.976Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:00:13.850Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:00:17.313Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:09:27.424Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:09:30.992Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:26:49.339Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:26:53.016Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:33:16.248Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:33:19.769Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:35:36.914Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:35:41.186Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:36:12.508Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:36:15.670Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:39:51.475Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:39:54.659Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:45:19.129Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:45:22.304Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:48:47.290Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:48:50.687Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:53:45.115Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:53:48.423Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:54:39.188Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:54:42.739Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:56:02.564Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:56:07.646Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:59:27.423Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:59:31.196Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T19:02:31.035Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:02:34.294Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T19:03:31.147Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:03:34.395Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T19:13:02.868Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T19:13:06.095Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-06T02:15:37.856Z"}
+info: Connected to the database. {"timestamp":"2022-07-06T02:15:41.714Z"}

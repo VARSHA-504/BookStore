@@ -251,3 +251,100 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T1
 info: Connected to the database. {"timestamp":"2022-07-05T14:30:59.352Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:24:00.773Z"}
 info: Connected to the database. {"timestamp":"2022-07-05T15:24:04.081Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:32:08.066Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:32:11.620Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:36:01.548Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:36:05.059Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:48:43.696Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:48:47.234Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T15:49:37.131Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:50:14.955Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:50:18.471Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:52:53.006Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:52:56.322Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:53:55.241Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:53:58.690Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T15:55:16.553Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T15:55:19.943Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:04:53.602Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:04:57.318Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/cart/6215178d05253301a4fda5c4 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-07-05T17:13:15.475Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:20:53.766Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:20:57.110Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:21:32.087Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:21:35.099Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:31:00.547Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:31:04.138Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:31:59.218Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:32:03.730Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:32:34.387Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:32:37.624Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:36:47.380Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:36:50.759Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:38:21.167Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:38:24.759Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:42:53.501Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:42:57.040Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:46:37.150Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:46:40.785Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T17:46:47.206Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:49:52.986Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:49:57.903Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:53:15.753Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:53:19.732Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee$ (C:\Users\91809\Desktop\bookstore\src\middlewares\/auth.middleware.js:25:17)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/6215178d05253301a4fda5c4 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-05T17:53:36.689Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:56:36.162Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:56:40.126Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T17:58:59.222Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T17:59:02.976Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:00:13.850Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:00:17.313Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:09:27.424Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:09:30.992Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-05T18:26:49.339Z"}
+info: Connected to the database. {"timestamp":"2022-07-05T18:26:53.016Z"}
