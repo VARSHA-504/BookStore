@@ -1,0 +1,8 @@
+info: ::1 - - [07/Jul/2022:07:24:33 +0000] "POST /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 400 167 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:07:27:26 +0000] "POST /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 400 167 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:07:33:39 +0000] "POST /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 400 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:07:34:55 +0000] "POST /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 200 1046 "-" "PostmanRuntime/7.29.0"
+

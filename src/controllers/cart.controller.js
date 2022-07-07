@@ -19,7 +19,7 @@ export const addToCart = async (req, res, next) => {
 
 export const getCart = async (req, res, next) => {
   try {
-    const data = await CartService.getCart(req.body.UserId, req.body._id);
+    const data = await CartService.getCart(req.body.UserID);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -32,6 +32,7 @@ export const getCart = async (req, res, next) => {
     });
   }
 };
+<<<<<<< HEAD
 export const updateCart = async (req, res, next) => {
   try {
     const data = await CartService.updateCart(req.params._id, req.body);
@@ -65,3 +66,21 @@ export const removeFromCart = async (req, res, next) => {
     });
   }
 };
+=======
+
+export const updateCart = async(req, res, next) => {
+  try{
+    const data = await CartService.updateCart(req.params._id, req.body)
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Cart updated successfully' 
+    });
+  }catch(error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    })
+  }
+} 
+>>>>>>> updateCart
