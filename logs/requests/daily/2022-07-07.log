@@ -6,3 +6,19 @@ info: ::1 - - [07/Jul/2022:07:33:39 +0000] "POST /api/v1/cart/update/6214803b052
 
 info: ::1 - - [07/Jul/2022:07:34:55 +0000] "POST /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 200 1046 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [07/Jul/2022:13:52:58 +0000] "POST /api/v1/books/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:53:07 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:53:57 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 400 83 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:54:43 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 400 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:56:25 +0000] "POST /api/v1/wishlist/621588f105253301a4fda5d0 HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:57:08 +0000] "GET /api/v1/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:57:18 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:13:57:44 +0000] "POST /api/v1/wishlist/6214803b05253301a4fda584 HTTP/1.1" 201 1212 "-" "PostmanRuntime/7.29.0"
+

@@ -1,7 +1,7 @@
 import Book from '../models/book.model';
 import Cart from '../models/cart.model';
 
-export const addToCart = async (bookId,UserID) => {
+export const addToWishlist = async (bookId,UserID) => {
     const bookToAdd = await Book.findById({_id: bookId});
     if (bookToAdd == null){
         throw new Error('Book does not exists');
@@ -61,7 +61,6 @@ export const updateCart = async (bookId, data) => {
     return cartData;
 };
 
-<<<<<<< HEAD
 
 export const removeFromCart = async (bookId, data) => {
     let cartData = await Cart.findOne({UserID: data.UserID});
@@ -79,5 +78,3 @@ export const removeFromCart = async (bookId, data) => {
     }
     return cartData;
 };
-=======
->>>>>>> updateCart
