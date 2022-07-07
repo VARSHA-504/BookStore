@@ -41,3 +41,22 @@ export const addToWishlist = async (bookId,UserID) => {
         }
         return data;
     };
+
+
+    export const removeFromWishlist = async (bookId, data) => {
+        let wishlistData = await Wishlist.findOne({UserID: data.UserID});
+        if(wishlistData == null) {
+            throw Error('Cart not exist for the user')
+        }else {
+            let books = wishlistData.books;
+            let bookIndex = books.findIndex(book => book.productId == bookId);
+            if(bookIndex) {
+                books.splice(bookIndex,1)
+                wishlistData = await Wishlist.findOneAndUpdate({UserID: data.UserID},{books: books},{new: true});
+            }else{
+                throw Error('Book does not exist')
+            }
+        }
+        return wishlistData;
+    };
+    

@@ -23,7 +23,7 @@ export const getWishlist = async (req, res, next) => {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Cart fetched successfully'
+        message: 'Wishlist fetched'
       });
     } catch (error) {
       res.status(HttpStatus.BAD_REQUEST).json({
@@ -32,3 +32,21 @@ export const getWishlist = async (req, res, next) => {
       });
     }
   };
+
+  export const removeFromWishlist = async (req, res, next) => {
+    try {
+      const data = await WishListService.removeFromWishlist(req.params._id, req.body);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'Book deleted from Wishlist'
+      });
+    } catch (error) {
+      res.status(HttpStatus.BAD_REQUEST).json({
+        code: HttpStatus.BAD_REQUEST,
+        message: `${error}`
+      });
+    }
+  };
+  
+  

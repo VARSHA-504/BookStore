@@ -8,5 +8,6 @@ router.post('/:_id', userAuth, wishListController.addToWishList);
 
 router.get('', userAuth, wishListController.getWishlist);
 
+router.delete('/remove/:_id', userAuth, wishListController.removeFromWishlist);
 
 export default router;
