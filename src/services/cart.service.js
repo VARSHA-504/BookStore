@@ -4,7 +4,7 @@ import Cart from '../models/cart.model';
 export const addToCart = async (bookId,UserID) => {
     const bookToAdd = await Book.findById({_id: bookId});
     if (bookToAdd == null){
-        throw new Error('Books does not exists');
+        throw new Error('Book does not exists');
     }
     else{
         const cartCheck = await Cart.findOne({UserID: UserID});
@@ -41,4 +41,40 @@ export const getCart = async (UserID) => {
     }
     return data;
 };
-    
+
+export const updateCart = async (bookId, data) => {
+    let cartData = await Cart.findOne({UserID: data.UserID});
+    if(cartData == null) {
+        throw Error('Cart not exist for the user')
+    }else {
+        let books = cartData.books;
+        let bookIndex = books.findIndex(book => book.productId == bookId);
+        if(bookIndex == -1) {
+            throw Error('Book does not exist in the cart')
+        }else {
+            let book = books[bookIndex];
+            book.quantity = data.quantity;
+            books[bookIndex] = book;
+            cartData = await Cart.findOneAndUpdate({UserID: data.UserID},{books: books},{new: true});
+        }
+    }
+    return cartData;
+};
+
+
+export const removeFromCart = async (bookId, data) => {
+    let cartData = await Cart.findOne({UserID: data.UserID});
+    if(cartData == null) {
+        throw Error('Cart not exist for the user')
+    }else {
+        let books = cartData.books;
+        let bookIndex = books.findIndex(book => book.productId == bookId);
+        if(bookIndex) {
+            books.splice(bookIndex,1)
+            cartData = await Cart.findOneAndUpdate({UserID: data.UserID},{books: books},{new: true});
+        }else{
+            throw Error('Book does not exist')
+        }
+    }
+    return cartData;
+};
