@@ -1,3 +1,5 @@
+import { object } from '@hapi/joi';
+import number from '@hapi/joi/lib/types/number';
 import { Schema, model } from 'mongoose';
 
 const cartSchema = new Schema(
