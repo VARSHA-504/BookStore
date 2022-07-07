@@ -61,7 +61,6 @@ export const updateCart = async (bookId, data) => {
     return cartData;
 };
 
-<<<<<<< HEAD
 
 export const removeFromCart = async (bookId, data) => {
     let cartData = await Cart.findOne({UserID: data.UserID});
@@ -79,5 +78,3 @@ export const removeFromCart = async (bookId, data) => {
     }
     return cartData;
 };
-=======
->>>>>>> updateCart
