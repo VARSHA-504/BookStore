@@ -28,8 +28,16 @@ export const addToWishlist = async (bookId,UserID) => {
                         quantity: 1,
                         price: bookToAdd.price}
             wishlistCheck.books.push(book);
-            let wishlistData = await Wishlist.findOneAndUpdate({UserID: UserID},{books: wishlistCheck.books}, {new: true});
+            let wishlistData = await Wishlist.findOneAndUpdate({UserID: UserID},{books: wishlistCheck.books});
             return wishlistData;
         }
     }   
+    };
+
+    export const getWishlist = async (UserID) => {
+        const data = await Wishlist.findOne({UserID: UserID})
+        if(data == null) {
+            throw Error('Cart does not exist')
+        }
+        return data;
     };

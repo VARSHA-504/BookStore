@@ -2,7 +2,7 @@ import { Schema, model } from 'mongoose';
 
 const wishListSchema = new Schema(
     {
-        userId: {
+        UserID: {
           type: String
         },
         books: [{
@@ -35,4 +35,4 @@ const wishListSchema = new Schema(
     }
 )
 
-export default model('WishList', wishListSchema);
+export default model('Wishlist', wishListSchema);
