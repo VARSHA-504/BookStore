@@ -8,4 +8,8 @@ router.post('/:_id', userAuth, cartController.addToCart);
 
 router.get('', userAuth, cartController.getCart);
 
+router.post('/update/:_id', userAuth, cartController.updateCart);
+
+router.delete('/remove/:_id', userAuth, cartController.removeFromCart);
+
 export default router;
