@@ -28,7 +28,7 @@ export const addToWishlist = async (bookId,UserID) => {
                         quantity: 1,
                         price: bookToAdd.price}
             wishlistCheck.books.push(book);
-            let wishlistData = await Wishlist.findOneAndUpdate({UserID: UserID},{books: wishlistCheck.books});
+            let wishlistData = await Wishlist.findOneAndUpdate({UserID: UserID},{books: wishlistCheck.books}, {new: true});
             return wishlistData;
         }
     }   
@@ -37,7 +37,7 @@ export const addToWishlist = async (bookId,UserID) => {
     export const getWishlist = async (UserID) => {
         const data = await Wishlist.findOne({UserID: UserID})
         if(data == null) {
-            throw Error('Cart does not exist')
+            throw Error(' does not exist')
         }
         return data;
     };
@@ -46,7 +46,7 @@ export const addToWishlist = async (bookId,UserID) => {
     export const removeFromWishlist = async (bookId, data) => {
         let wishlistData = await Wishlist.findOne({UserID: data.UserID});
         if(wishlistData == null) {
-            throw Error('Cart not exist for the user')
+            throw Error('Wishlist not exist for the user')
         }else {
             let books = wishlistData.books;
             let bookIndex = books.findIndex(book => book.productId == bookId);

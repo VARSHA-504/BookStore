@@ -82,3 +82,12 @@ info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T1
 info: Connected to the database. {"timestamp":"2022-07-07T15:51:34.265Z"}
 info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T15:54:19.838Z"}
 info: Connected to the database. {"timestamp":"2022-07-07T15:54:23.558Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T15:58:05.749Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T15:58:09.109Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T16:56:05.250Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T16:56:08.897Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T17:00:49.790Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T17:00:52.713Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T17:09:55.934Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T18:19:13.679Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T18:19:16.878Z"}

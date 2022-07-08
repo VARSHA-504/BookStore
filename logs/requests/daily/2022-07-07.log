@@ -68,3 +68,19 @@ info: ::1 - - [07/Jul/2022:15:27:29 +0000] "DELETE /api/v1/wishlist/remove/62151
 
 info: ::1 - - [07/Jul/2022:15:27:45 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 200 1046 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [07/Jul/2022:15:54:36 +0000] "PUT /api/v1/order HTTP/1.1" 202 1045 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:16:59:27 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:16:59:52 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 400 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:01 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 201 165 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:23 +0000] "POST /api/v1/books/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:29 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:02:04 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 337 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:02:19 +0000] "GET /api/v1/cart HTTP/1.1" 200 523 "-" "PostmanRuntime/7.29.0"
+

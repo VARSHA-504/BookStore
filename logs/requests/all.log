@@ -474,3 +474,175 @@ ReferenceError: orderRouter is not defined
     at node:internal/main/run_main_module:17:47 {"date":"Thu Jul 07 2022 21:22:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":289583},"process":{"argv":["node","C:\\Users\\91809\\Desktop\\bookstore\\src\\index.js"],"cwd":"C:\\Users\\91809\\Desktop\\bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18392467,"external":19843625,"heapTotal":81334272,"heapUsed":48499624,"rss":115093504},"pid":9984,"uid":null,"version":"v18.2.0"},"stack":"ReferenceError: orderRouter is not defined\n    at routes (C:\\Users\\91809\\Desktop\\bookstore\\src\\routes\\/index.js:22:24)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js:32:32)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Object.newLoader [as .js] (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at Object.<anonymous> (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:827:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)\n    at node:internal/main/run_main_module:17:47","trace":[{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\src\\routes\\/index.js","function":"routes","line":22,"method":null,"native":false},{"column":32,"file":"C:\\Users\\91809\\Desktop\\bookstore\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":7,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":827,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":77,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":17,"method":null,"native":false}]}
 info: ::1 - - [07/Jul/2022:15:54:36 +0000] "PUT /api/v1/order HTTP/1.1" 202 1045 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [07/Jul/2022:16:59:27 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:16:59:52 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 400 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:01 +0000] "POST /api/v1/cart/6215890d05253301a4fda5d1 HTTP/1.1" 201 165 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:23 +0000] "POST /api/v1/books/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:01:29 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:02:04 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 337 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [07/Jul/2022:17:02:19 +0000] "GET /api/v1/cart HTTP/1.1" 200 523 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at writeSync (node:fs:903:3)
+    at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)
+    at writeOrBuffer (node:internal/streams/writable:390:12)
+    at _write (node:internal/streams/writable:331:10)
+    at SyncWriteStream.Writable.write (node:internal/streams/writable:335:10)
+    at Console.log (C:\Users\91809\Desktop\bookstore\node_modules\winston\lib\winston\transports\console.js:79:23)
+    at Console._write (C:\Users\91809\Desktop\bookstore\node_modules\winston-transport\index.js:82:19)
+    at doWrite (C:\Users\91809\Desktop\bookstore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:409:139)
+    at writeOrBuffer (C:\Users\91809\Desktop\bookstore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:398:5)
+    at Console.Writable.write (C:\Users\91809\Desktop\bookstore\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:307:11)
+    at DerivedLogger.ondata (C:\Users\91809\Desktop\bookstore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (node:events:539:35)
+    at DerivedLogger.emit (node:domain:475:12)
+    at addChunk (C:\Users\91809\Desktop\bookstore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\91809\Desktop\bookstore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\91809\Desktop\bookstore\node_modules\winston\node_modules\readable-stream\lib\_stream_readable.js:241:10) {"date":"Thu Jul 07 2022 22:39:56 GMT+0530 (India Standard Time)","error":{"code":"EPIPE","errno":-4047,"syscall":"write"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":294224},"process":{"argv":["node","C:\\Users\\91809\\Desktop\\bookstore\\src\\index.js"],"cwd":"C:\\Users\\91809\\Desktop\\bookstore","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19129167,"external":20600784,"heapTotal":79237120,"heapUsed":58411800,"rss":113278976},"pid":11164,"uid":null,"version":"v18.2.0"},"stack":"Error: EPIPE: broken pipe, write\n    at writeSync (node:fs:903:3)\n    at SyncWriteStream._write (node:internal/fs/sync_write_stream:25:3)\n    at writeOrBuffer (node:internal/streams/writable:390:12)\n    at _write (node:internal/streams/writable:331:10)\n    at SyncWriteStream.Writable.write (node:internal/streams/writable:335:10)\n    at Console.log (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\lib\\winston\\transports\\console.js:79:23)\n    at Console._write (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\index.js:82:19)\n    at doWrite (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:409:139)\n    at writeOrBuffer (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:398:5)\n    at Console.Writable.write (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js:307:11)\n    at DerivedLogger.ondata (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:681:20)\n    at DerivedLogger.emit (node:events:539:35)\n    at DerivedLogger.emit (node:domain:475:12)\n    at addChunk (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:298:12)\n    at readableAddChunk (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:280:11)\n    at DerivedLogger.Readable.push (C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js:241:10)","trace":[{"column":3,"file":"node:fs","function":"writeSync","line":903,"method":null,"native":false},{"column":3,"file":"node:internal/fs/sync_write_stream","function":"SyncWriteStream._write","line":25,"method":"_write","native":false},{"column":12,"file":"node:internal/streams/writable","function":"writeOrBuffer","line":390,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"_write","line":331,"method":null,"native":false},{"column":10,"file":"node:internal/streams/writable","function":"SyncWriteStream.Writable.write","line":335,"method":"write","native":false},{"column":23,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\lib\\winston\\transports\\console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston-transport\\node_modules\\readable-stream\\lib\\_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false},{"column":35,"file":"node:events","function":"DerivedLogger.emit","line":539,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"DerivedLogger.emit","line":475,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"addChunk","line":298,"method":null,"native":false},{"column":11,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"readableAddChunk","line":280,"method":null,"native":false},{"column":10,"file":"C:\\Users\\91809\\Desktop\\bookstore\\node_modules\\winston\\node_modules\\readable-stream\\lib\\_stream_readable.js","function":"DerivedLogger.Readable.push","line":241,"method":"push","native":false}]}
+info: ::1 - - [07/Jul/2022:18:59:34 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/103.0.5060.66"
+
+info: ::1 - - [07/Jul/2022:19:00:24 +0000] "POST /api/v1/users/newuser HTTP/1.1" 500 72 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/103.0.5060.66"
+
+info: ::1 - - [07/Jul/2022:19:02:57 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 272 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/103.0.5060.66"
+
+info: ::1 - - [07/Jul/2022:19:03:38 +0000] "POST /api/v1/users/login HTTP/1.1" 200 246 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Mobile Safari/537.36 Edg/103.0.5060.66"
+
+info: ::1 - - [07/Jul/2022:19:11:21 +0000] "GET / HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44"
+
+info: ::1 - - [07/Jul/2022:19:11:24 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44"
+
+info: ::1 - - [08/Jul/2022:02:13:24 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:14:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:15:04 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:15:30 +0000] "GET /api/v1/books/getbyId/6214803b05253301a4fda584 HTTP/1.1" 200 1283 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:16:11 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1053 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:17:01 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1053 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:24:01 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 1941 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:24:17 +0000] "GET /api/v1/cart HTTP/1.1" 200 2823 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:25:26 +0000] "PUT /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 202 2810 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:25:45 +0000] "GET /api/v1/cart HTTP/1.1" 200 2823 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:26:12 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:26:28 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:52:14 +0000] "GET /api/v1/cart HTTP/1.1" 200 2823 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:02:53:10 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:03:10:37 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:03:44:34 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 271 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Mobile Safari/537.36 Edg/103.0.1264.44"
+
+info: ::1 - - [08/Jul/2022:11:42:08 +0000] "GET /api/v1/cart/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:44:51 +0000] "GET /api/v1/cart HTTP/1.1" 200 2823 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:45:55 +0000] "PUT /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:46:09 +0000] "PUT /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 202 2810 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:47:18 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:54:29 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 200 1932 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:55:33 +0000] "GET /api/v1/cart HTTP/1.1" 200 1935 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:58:22 +0000] "GET /api/v1/cart HTTP/1.1" 200 1935 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:58:36 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:11:59:53 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 200 1044 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:00:24 +0000] "GET /api/v1/cart HTTP/1.1" 200 1047 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:02:15 +0000] "PUT /api/v1/cart/update/6214803b05253301a4fda584 HTTP/1.1" 202 1035 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:03:01 +0000] "GET /api/v1/cart HTTP/1.1" 200 1048 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:07:59 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 263 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:08:25 +0000] "POST /api/v1/users/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:09:03 +0000] "GET /api/v1/cart HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:09:32 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:38:38 +0000] "POST /api/v1/cart/621588d505253301a4fda5cf HTTP/1.1" 201 356 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:39:47 +0000] "GET /api/v1/cart/getAll HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:39:57 +0000] "GET /api/v1/cart HTTP/1.1" 200 350 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:40:20 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:40:43 +0000] "POST /api/v1/cart/6215888305253301a4fda5cd HTTP/1.1" 201 356 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:41:05 +0000] "GET /api/v1/cart HTTP/1.1" 200 548 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:41:47 +0000] "PUT /api/v1/cart/update/621588d505253301a4fda5cf HTTP/1.1" 202 536 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:42:27 +0000] "DELETE /api/v1/cart/delete/621588d505253301a4fda5cf HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:42:39 +0000] "DELETE /api/v1/cart/remove/621588d505253301a4fda5cf HTTP/1.1" 200 353 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:42:59 +0000] "GET /api/v1/cart HTTP/1.1" 200 356 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:43:57 +0000] "GET /api/v1/books/getAll HTTP/1.1" 200 8336 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:44:17 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 362 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:44:34 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 200 353 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:45:20 +0000] "POST /api/v1/cart/6214803b05253301a4fda584 HTTP/1.1" 201 362 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:45:44 +0000] "GET /api/v1/cart HTTP/1.1" 200 1244 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:46:26 +0000] "DELETE /api/v1/cart/remove/6214803b05253301a4fda584 HTTP/1.1" 200 353 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:48:19 +0000] "DELETE /api/v1/cart HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:12:48:30 +0000] "GET /api/v1/cart HTTP/1.1" 200 356 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:01:08 +0000] "GET /api/v1/wishlist HTTP/1.1" 400 51 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:12:54 +0000] "POST /api/v1/wishlist/6214803b05253301a4fda584 HTTP/1.1" 201 1060 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:13:34 +0000] "POST /api/v1/wishlist/6215888305253301a4fda5cd HTTP/1.1" 201 1060 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:13:50 +0000] "GET /api/v1/wishlist HTTP/1.1" 200 1235 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:14:18 +0000] "DELETE /api/v1/wishlist/remove/62c82d7e2fa91e0340963fee HTTP/1.1" 400 81 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:27:50 +0000] "DELETE /api/v1/wishlist/remove/62c82d7e2fa91e0340963fee HTTP/1.1" 400 81 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:31:00 +0000] "DELETE /api/v1/wishlist/remove/62c82d7e2fa91e0340963fee HTTP/1.1" 200 1047 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:31:47 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 1060 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:32:29 +0000] "POST /api/v1/wishlist/6215178d05253301a4fda5c4 HTTP/1.1" 201 1267 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:33:14 +0000] "POST /api/v1/wishlist/621588d505253301a4fda5cf HTTP/1.1" 201 1474 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:35:00 +0000] "DELETE /api/v1/wishlist/remove/6215178d05253301a4fda5c4 HTTP/1.1" 200 1446 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:35:23 +0000] "DELETE /api/v1/wishlist/remove/6215178d05253301a4fda5c4 HTTP/1.1" 200 1239 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:13:35:46 +0000] "DELETE /api/v1/wishlist/remove/621588d505253301a4fda5cf HTTP/1.1" 200 1047 "-" "PostmanRuntime/7.29.0"
+

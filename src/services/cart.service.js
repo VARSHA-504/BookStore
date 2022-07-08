@@ -1,7 +1,7 @@
 import Book from '../models/book.model';
 import Cart from '../models/cart.model';
 
-export const addToWishlist = async (bookId,UserID) => {
+export const addToCart = async (bookId,UserID) => {
     const bookToAdd = await Book.findById({_id: bookId});
     if (bookToAdd == null){
         throw new Error('Book does not exists');
@@ -69,12 +69,15 @@ export const removeFromCart = async (bookId, data) => {
     }else {
         let books = cartData.books;
         let bookIndex = books.findIndex(book => book.productId == bookId);
-        if(bookIndex) {
+        if(bookIndex == -1) {
+            throw Error('Book does not exist in the cart')
+        }else {
             books.splice(bookIndex,1)
             cartData = await Cart.findOneAndUpdate({UserID: data.UserID},{books: books},{new: true});
-        }else{
-            throw Error('Book does not exist')
+            console.log(cartData)
         }
     }
     return cartData;
 };
+
+

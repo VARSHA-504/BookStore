@@ -1,0 +1,92 @@
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T18:59:09.214Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T18:59:12.766Z"}
+error: 
+    status - 500 
+    message - Error: User doesnt exist
+    at _callee2$ (C:\Users\91809\Desktop\bookstore\src\services\/user.service.js:12:11)
+    at tryCatch (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:86:17)
+    at Generator._invoke (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:66:24)
+    at Generator.next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:117:21)
+    at asyncGeneratorStep (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\91809\Desktop\bookstore\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-07T18:59:34.620Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.Number is not a function
+    at newUserValidator (C:\Users\91809\Desktop\bookstore\src\validators\/user.validator.js:8:16)
+    at Layer.handle [as handle_request] (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\91809\Desktop\bookstore\node_modules\express\lib\router\index.js:175:3) 
+    url - /api/v1/users/newuser 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-07-07T19:00:24.641Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-07T19:02:31.915Z"}
+info: Connected to the database. {"timestamp":"2022-07-07T19:02:36.054Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T02:07:40.807Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T02:07:44.682Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T02:17:40.603Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T02:17:43.754Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T02:43:38.443Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T02:43:41.438Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T03:05:51.530Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T03:06:04.046Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T03:24:27.841Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T03:24:33.558Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:25:59.391Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:26:03.128Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:44:22.133Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:44:28.941Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:50:58.647Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:51:02.018Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:53:16.426Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:53:19.890Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:54:00.428Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:54:03.606Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:58:05.764Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:58:09.680Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T11:59:35.958Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T11:59:39.482Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T12:50:11.362Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T12:50:14.530Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:02:31.804Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:02:35.014Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:12:15.651Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:12:18.624Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:15:27.292Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:15:30.058Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:29:58.248Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:30:01.446Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:30:41.733Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:30:44.598Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:34:25.875Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:34:28.824Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:39:34.862Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:39:38.271Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:40:35.623Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:40:38.507Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:41:50.808Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:41:53.723Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:42:59.013Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:43:13.887Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:43:21.559Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:46:04.434Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:46:07.244Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2022-07-08T13:48:44.609Z"}
+info: Connected to the database. {"timestamp":"2022-07-08T13:48:47.483Z"}
