@@ -138,3 +138,15 @@ info: ::1 - - [08/Jul/2022:13:35:23 +0000] "DELETE /api/v1/wishlist/remove/62151
 
 info: ::1 - - [08/Jul/2022:13:35:46 +0000] "DELETE /api/v1/wishlist/remove/621588d505253301a4fda5cf HTTP/1.1" 200 1047 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [08/Jul/2022:14:00:53 +0000] "DELETE /api/v1/customer HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:14:01:04 +0000] "POST /api/v1/customer HTTP/1.1" 400 132 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:14:04:33 +0000] "POST /api/v1/customer HTTP/1.1" 201 184 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:14:06:47 +0000] "GET /api/v1/cart HTTP/1.1" 200 356 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:14:07:27 +0000] "PUT /api/v1/order/6215888305253301a4fda5cd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [08/Jul/2022:14:09:01 +0000] "PUT /api/v1/order HTTP/1.1" 202 1045 "-" "PostmanRuntime/7.29.0"
+
